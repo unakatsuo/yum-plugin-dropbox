@@ -5,7 +5,7 @@ Version: 0.1
 Release: 1%{?dist}
 License: MIT
 Group: System Environment/Base
-Source: https://github.com/unakatsuo/yum-dropbox/archive/master.tar.gz
+Source: https://github.com/unakatsuo/yum-dropbox/archive/v%{version}.tar.gz
 URL: https://github.com/unakatsuo/yum-dropbox/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
