@@ -10,7 +10,6 @@ URL: https://github.com/unakatsuo/yum-plugin-dropbox/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
 Requires: yum >= 3.2.29
-Requires: python-kitchen
 
 %description
 This is a yum plugin to access yum repository created on Dropbox. The
