@@ -5,8 +5,8 @@ Version: 0.1
 Release: 1%{?dist}
 License: MIT
 Group: System Environment/Base
-Source: https://github.com/unakatsuo/yum-dropbox/archive/v%{version}.tar.gz
-URL: https://github.com/unakatsuo/yum-dropbox/
+Source0: https://github.com/unakatsuo/yum-plugin-dropbox/archive/v%{version}.tar.gz
+URL: https://github.com/unakatsuo/yum-plugin-dropbox/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
 Requires: yum >= 3.2.29
