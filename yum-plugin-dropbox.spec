@@ -1,16 +1,15 @@
 %define pluginhome /usr/lib/yum-plugins
 Summary: Allow yum to access repository on Dropbox
 Name: yum-plugin-dropbox
-Version: 0.1
+Version: 0.2
 Release: 1%{?dist}
 License: MIT
 Group: System Environment/Base
 Source: https://github.com/unakatsuo/yum-dropbox/archive/v%{version}.tar.gz
-URL: https://github.com/unakatsuo/yum-dropbox/
+URL: https://github.com/unakatsuo/yum-plugin-dropbox/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
 Requires: yum >= 3.2.29
-Requires: python-kitchen
 
 %description
 This is a yum plugin to access yum repository created on Dropbox. The
