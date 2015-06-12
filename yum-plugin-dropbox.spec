@@ -1,7 +1,7 @@
 %define pluginhome /usr/lib/yum-plugins
 Summary: Allow yum to access repository on Dropbox
 Name: yum-plugin-dropbox
-Version: 0.1
+Version: 0.2
 Release: 1%{?dist}
 License: MIT
 Group: System Environment/Base
